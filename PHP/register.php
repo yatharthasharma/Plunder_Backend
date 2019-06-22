@@ -1,5 +1,5 @@
 <?php
-	error_reporting(E_ALL);
+    error_reporting(E_ALL);
     require("password.php");
     require("init.php");
     
@@ -13,7 +13,7 @@
         $id = uniqid();
         $passwordHash = password_hash($password, PASSWORD_DEFAULT);
         $statement = mysqli_prepare($con, "INSERT INTO users (user_id, email, password, full_name, birth_date) 
-			VALUES (?, ?, ?, ?, ?);");
+            VALUES (?, ?, ?, ?, ?);");
         mysqli_stmt_bind_param($statement, "sssss", $id, $email, $passwordHash, $name, $birthDate);
         mysqli_stmt_execute($statement);
         mysqli_stmt_close($statement);
@@ -37,8 +37,8 @@
     $response = array();
     $response["success"] = false;
     if (emailAvailable()){
-    	$response["success"] = true;
-    	registerUser();
+        $response["success"] = true;
+        registerUser();
     }
     
    echo json_encode($response);
