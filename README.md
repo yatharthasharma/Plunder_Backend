@@ -1,8 +1,8 @@
 # Plunder
 ### Welcome to Plunder!
-**Explore the world with user created hunts!**
+Explore the world with user created hunts!
 
-**Compete in Plunders against others for rewards and fun!**
+Compete in Plunders against others for rewards and fun!
 
 ![Plunder_Logo](https://github.com/SzyJ/Plunder/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true "Plunder")
 
