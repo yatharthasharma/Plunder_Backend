@@ -11,8 +11,12 @@ The repository containing the app code, can be found here: [Plunder](https://git
 ## How it works
 The logic in the PHP files is used to communicate with a MySQL database that contains all app data. User profiles, created hunts, created Plunders...
 
-The location and credentials used for the database can be configured in the ```init.php``` file.
+<img src="Screenshots/hunt_creation.png" width="23%"></img>
+<img src="Screenshots/in_hunt.png" width="23%"></img>
+<img src="Screenshots/manual_input.png" width="23%"></img>
+<img src="Screenshots/wp_completed.png" width="23%"></img>
 
+The location and credentials used for the database can be configured in the ```init.php``` file.
 
 ## Credit
 All .php files have been written by:
